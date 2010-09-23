@@ -22,6 +22,6 @@
 
 	}}} */
 
-if(version_compare(PHP_VERSION, '5.3.0') < 0) {
-    die('Agile Toolkit Requires PHP 5.3.0. You are running: '.PHP_VERSION."\n");
+if(version_compare(PHP_VERSION, '5.2.0') < 0) {
+    die('Agile Toolkit Requires PHP 5.2.0. You are running: '.PHP_VERSION."\n");
 }
